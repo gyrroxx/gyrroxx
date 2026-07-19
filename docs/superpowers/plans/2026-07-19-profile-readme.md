@@ -6,7 +6,7 @@
 
 **Architecture:** A single `README.md` composes one repository-owned WebP hero with Markdown/limited HTML, a FIGlet identity block, reputable remote SVG cards, and standard HTTPS links. There is no application runtime, workflow, dependency, secret, analytics, or custom hosted service.
 
-**Tech Stack:** GitHub Flavored Markdown, repository-hosted WebP, FIGlet ASCII, ImageGen, Shields.io, Readme Typing SVG, GitHub Readme Stats, `git`, `gh`, `curl`.
+**Tech Stack:** GitHub Flavored Markdown, repository-hosted WebP, FIGlet ASCII, ImageGen, Shields.io, Readme Typing SVG, GitHub Profile Summary Cards, `git`, `gh`, `curl`.
 
 ## Global Constraints
 
@@ -150,8 +150,11 @@ Python · TypeScript · Next.js · Node.js · PostgreSQL · Docker · Telegram M
 ## `> github --signal`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gyrroxx&amp;show_icons=true&amp;hide_border=true&amp;bg_color=050505&amp;title_color=39FF88&amp;text_color=E7ECE8&amp;icon_color=35D9FF&amp;ring_color=FF4FD8" alt="Shakh's GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=gyrroxx&amp;layout=compact&amp;hide_border=true&amp;bg_color=050505&amp;title_color=39FF88&amp;text_color=E7ECE8" alt="Most used public repository languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gyrroxx&amp;theme=github_dark" alt="Shakh's public GitHub activity">
+</p>
+<p align="center">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gyrroxx&amp;theme=github_dark" alt="Shakh's public GitHub statistics">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gyrroxx&amp;theme=github_dark" alt="Languages across public repositories">
 </p>
 
 Most active systems are private; public statistics show only part of the work.
@@ -211,7 +214,7 @@ git commit -m "Build Blacksite Operator profile README"
 
 ```bash
 test -s assets/gyro-blacksite.webp
-for url in https://t.me/dokaqq https://github.com/gyrroxx/versus-llm https://readme-typing-svg.demolab.com https://github-readme-stats.vercel.app; do curl -LIsS --max-time 20 "$url" | head -n 1; done
+for url in https://t.me/dokaqq https://github.com/gyrroxx/versus-llm https://readme-typing-svg.demolab.com https://github-profile-summary-cards.vercel.app; do curl -LIsS --max-time 20 "$url" | head -n 1; done
 ```
 
 Expected: local asset is non-empty and each endpoint returns an HTTP response without DNS/TLS failure.

@@ -96,8 +96,12 @@ FULL STACK      interfaces / APIs / data / infrastructure / operations
 ## `> github --signal`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gyrroxx&amp;show_icons=true&amp;hide_border=true&amp;bg_color=050505&amp;title_color=39FF88&amp;text_color=E7ECE8&amp;icon_color=35D9FF&amp;ring_color=FF4FD8" alt="Shakh's GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=gyrroxx&amp;layout=compact&amp;hide_border=true&amp;bg_color=050505&amp;title_color=39FF88&amp;text_color=E7ECE8" alt="Most used public repository languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gyrroxx&amp;theme=github_dark" alt="Shakh's public GitHub activity">
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gyrroxx&amp;theme=github_dark" alt="Shakh's public GitHub statistics">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gyrroxx&amp;theme=github_dark" alt="Languages across public repositories">
 </p>
 
 <p align="center"><sub>Most active systems are private. Public statistics show only part of the work.</sub></p>
