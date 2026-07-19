@@ -60,7 +60,7 @@ Use the image viewer and reject it if it contains text-like glyphs, a human face
 mkdir -p assets /tmp/gyrroxx-profile-imagegen
 SOURCE_IMAGE="$(find "${CODEX_HOME:-$HOME/.codex}/generated_images" -type f \( -name '*.png' -o -name '*.jpg' -o -name '*.webp' \) -print0 | xargs -0 ls -t | head -n 1)"
 test -n "$SOURCE_IMAGE" && cp "$SOURCE_IMAGE" /tmp/gyrroxx-profile-imagegen/gyro-blacksite-source.png
-ffmpeg -y -i /tmp/gyrroxx-profile-imagegen/gyro-blacksite-source.png -vf "crop='min(iw,ih*3)':'min(ih,iw/3)':(iw-min(iw,ih*3))/2:(ih-min(ih,iw/3))/2,scale='min(1600,iw)':-2" -c:v libwebp -quality 88 assets/gyro-blacksite.webp
+python3 -c 'from PIL import Image; p="/tmp/gyrroxx-profile-imagegen/gyro-blacksite-source.png"; im=Image.open(p).convert("RGB"); w,h=im.size; tw=min(w,h*3); th=min(h,w//3); left=(w-tw)//2; top=(h-th)//2; im=im.crop((left,top,left+tw,top+th)); ow=min(1600,im.width); oh=round(ow/3); im.resize((ow,oh),Image.Resampling.LANCZOS).save("assets/gyro-blacksite.webp","WEBP",quality=88,method=6)'
 ```
 
 Expected: `assets/gyro-blacksite.webp` exists, width is at most 1600 px, and the image opens correctly.
