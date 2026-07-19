@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/gyro-blacksite.webp" alt="Manga-style Gyro Zeppeli controlling AI systems in a blacksite terminal" width="100%">
+  <img src="./assets/gyro-puppet-master.webp" alt="Manga-style Gyro Zeppeli controlling AI systems in a blacksite terminal" width="100%">
 </p>
 
 <h1 align="center">SHAKH // AI SPECIALIST &amp; DEVELOPER</h1>
