@@ -21,16 +21,23 @@
 
 <!-- FIGlet 2.2.5 / ANSI Shadow. FIGlet is distributed under the New BSD license: https://www.figlet.org/ -->
 
-```text
-      _,---.                            _,.---._                        ,---.                   
-  _.='.'-,  \,--.-.  .-,--.-.,.---.   ,-.' , -  `.            _.-.    .--.'  \        _..---.   
- /==.'-     /==/- / /=/_ /==/  `   \ /==/_,  ,  - \         .-,.'|    \==\-/\ \     .' .'.-. \  
-/==/ -   .-'\==\, \/=/. /==|-, .=., |==|   .=.     |       |==|, |    /==/-|_\ |   /==/- '=' /  
-|==|_   /_,-.\==\  \/ -/|==|   '='  /==|_ : ;=:  - |       |==|- |    \==\,   - \  |==|-,   '   
-|==|  , \_.' )|==|  ,_/ |==|- ,   .'|==| , '='     |       |==|, |    /==/ -   ,|  |==|  .=. \  
-\==\-  ,    ( \==\-, /  |==|_  . ,'. \==\ -    ,_ /        |==|- `-._/==/-  /\ - \ /==/- '=' ,| 
- /==/ _  ,  / /==/._/   /==/  /\ ,  ) '.='. -   .'         /==/ - , ,|==\ _.\=\.-'|==|   -   /  
- `--`------'  `--`-`    `--`-`--`--'    `--`--''           `--`-----' `--`        `-._`.___,'                          
+```text                                                                                                                                                       
+        GGGGGGGGGGGGGYYYYYYY       YYYYYYYRRRRRRRRRRRRRRRRR        OOOOOOOOO          LLLLLLLLLLL                            AAA               BBBBBBBBBBBBBBBBB   
+     GGG::::::::::::GY:::::Y       Y:::::YR::::::::::::::::R     OO:::::::::OO        L:::::::::L                           A:::A              B::::::::::::::::B  
+   GG:::::::::::::::GY:::::Y       Y:::::YR::::::RRRRRR:::::R  OO:::::::::::::OO      L:::::::::L                          A:::::A             B::::::BBBBBB:::::B 
+  G:::::GGGGGGGG::::GY::::::Y     Y::::::YRR:::::R     R:::::RO:::::::OOO:::::::O     LL:::::::LL                         A:::::::A            BB:::::B     B:::::B
+ G:::::G       GGGGGGYYY:::::Y   Y:::::YYY  R::::R     R:::::RO::::::O   O::::::O       L:::::L                          A:::::::::A             B::::B     B:::::B
+G:::::G                 Y:::::Y Y:::::Y     R::::R     R:::::RO:::::O     O:::::O       L:::::L                         A:::::A:::::A            B::::B     B:::::B
+G:::::G                  Y:::::Y:::::Y      R::::RRRRRR:::::R O:::::O     O:::::O       L:::::L                        A:::::A A:::::A           B::::BBBBBB:::::B 
+G:::::G    GGGGGGGGGG     Y:::::::::Y       R:::::::::::::RR  O:::::O     O:::::O       L:::::L                       A:::::A   A:::::A          B:::::::::::::BB  
+G:::::G    G::::::::G      Y:::::::Y        R::::RRRRRR:::::R O:::::O     O:::::O       L:::::L                      A:::::A     A:::::A         B::::BBBBBB:::::B 
+G:::::G    GGGGG::::G       Y:::::Y         R::::R     R:::::RO:::::O     O:::::O       L:::::L                     A:::::AAAAAAAAA:::::A        B::::B     B:::::B
+G:::::G        G::::G       Y:::::Y         R::::R     R:::::RO:::::O     O:::::O       L:::::L                    A:::::::::::::::::::::A       B::::B     B:::::B
+ G:::::G       G::::G       Y:::::Y         R::::R     R:::::RO::::::O   O::::::O       L:::::L         LLLLLL    A:::::AAAAAAAAAAAAA:::::A      B::::B     B:::::B
+  G:::::GGGGGGGG::::G       Y:::::Y       RR:::::R     R:::::RO:::::::OOO:::::::O     LL:::::::LLLLLLLLL:::::L   A:::::A             A:::::A   BB:::::BBBBBB::::::B
+   GG:::::::::::::::G    YYYY:::::YYYY    R::::::R     R:::::R OO:::::::::::::OO      L::::::::::::::::::::::L  A:::::A               A:::::A  B:::::::::::::::::B 
+     GGG::::::GGG:::G    Y:::::::::::Y    R::::::R     R:::::R   OO:::::::::OO        L::::::::::::::::::::::L A:::::A                 A:::::A B::::::::::::::::B  
+        GGGGGG   GGGG    YYYYYYYYYYYYY    RRRRRRRR     RRRRRRR     OOOOOOOOO          LLLLLLLLLLLLLLLLLLLLLLLLAAAAAAA                   AAAAAAABBBBBBBBBBBBBBBBB                                                                                                                                                                     
 ```
 
 ## `> whoami`
