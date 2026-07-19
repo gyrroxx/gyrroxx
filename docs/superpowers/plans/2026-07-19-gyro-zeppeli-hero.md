@@ -74,7 +74,7 @@ Reject the candidate if the left side is no longer empty, the subject is not rec
 ```bash
 export SOURCE_IMAGE="$(find "${CODEX_HOME:-$HOME/.codex}/generated_images" -type f \( -name '*.png' -o -name '*.jpg' -o -name '*.webp' \) -print0 | xargs -0 ls -t | head -n 1)"
 test -n "$SOURCE_IMAGE"
-python3 -c 'from PIL import Image; import os; p=os.environ["SOURCE_IMAGE"]; im=Image.open(p).convert("RGB"); w,h=im.size; tw=min(w,h*3); th=min(h,w//3); left=(w-tw)//2; top=(h-th)//2; im=im.crop((left,top,left+tw,top+th)); im.resize((1600,533),Image.Resampling.LANCZOS).save("/tmp/gyrroxx-profile-imagegen/gyro-zeppeli-candidate.webp","WEBP",quality=90,method=6)' 
+python3 -c 'from PIL import Image; import os; p=os.environ["SOURCE_IMAGE"]; im=Image.open(p).convert("RGB"); w,h=im.size; tw=min(w,h*3); th=min(h,w//3); left=(w-tw)//2; top=(h-th)//2; im=im.crop((left,top,left+tw,top+th)); im.resize((1600,533),Image.Resampling.LANCZOS).save("/tmp/gyrroxx-profile-imagegen/gyro-zeppeli-candidate.webp","WEBP",quality=90,method=6)'
 sips -g pixelWidth -g pixelHeight -g format /tmp/gyrroxx-profile-imagegen/gyro-zeppeli-candidate.webp
 du -h /tmp/gyrroxx-profile-imagegen/gyro-zeppeli-candidate.webp
 ```
